@@ -7,25 +7,25 @@
     <title>Home</title>
 </head>
 <body style="text-align: center; background-color: black;">
-    <h1 style="text-align: center; color: blueviolet; font-size: 6em;">WELCOME TO QUIZ</h1>
+    <h1 style="text-align: center; color: blueviolet; font-size: 8vw;">WELCOME TO QUIZ</h1>
     <form>
         <label>Name</label>
      <input type="text/email" placeholder="your name or email">
      <input type="submit">
      </form>
-    <div class="start" style="font-size: 10em; text-align: center;"><button onclick="instruct()"><a href="index1.html" style="text-decoration: none; font-size: 100px;">Start QUIZ</a></button></div>
+    <div class="start" style="text-align: center;"><button onclick="instruct()"><a href="index1.html" style="text-decoration: none; font-size: 10vw;">Start QUIZ</a></button></div>
     <script>
       function instruct(){
           alert("You have started to attempt  Quiz. You have total 5 question | Time Duration is 5 minutes")
       }      
     </script>
     <div style="border: 2px solid black; background-color: black;">
-    <button onclick="changeColor()"><a href="#show-more" style="text-decoration: none; font-size: 8em;" >Dashboard</a></button>
+    <button onclick="changeColor()"><a href="#show-more" style="text-decoration: none; font-size: 11vw;" >Dashboard</a></button>
     <div id="show-more" style="color: Black" >Highest Score : 5/5<br>Lowest Score : 0/5</div></div>
     <script>
         function changeColor(){
         document.getElementById("show-more").style.color = "blue";
-        document.getElementById("show-more").style.font ="5em";}
+        }
     </script>
 </body>
 </html>
